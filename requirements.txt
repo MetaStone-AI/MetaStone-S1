@@ -1,0 +1,6 @@
+tensorboard 
+vllm==0.5.4 
+antlr4-python3-runtime==4.9.3 
+liger-kernel 
+transformers==4.47.1
+math-verify[antlr4_9_3]

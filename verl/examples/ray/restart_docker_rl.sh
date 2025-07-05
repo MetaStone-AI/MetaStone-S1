@@ -1,0 +1,2 @@
+docker run -itd --gpus all --privileged --cap-add=IPC_LOCK --ulimit memlock=-1 --ulimit stack=67108864 --shm-size="10g"  --memory-swap=-1 \
+        -v local_path:/workspace --net=host --ipc=host --name="rl" pytorch:vemlp-th2.4.0-cu124-vllm0.6.3-ray2.10-te1.7-v0.0.3 /etc/init.d/ssh start -D
