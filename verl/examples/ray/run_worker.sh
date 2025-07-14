@@ -15,7 +15,6 @@ export TORCH_DISTRIBUTED_DEBUG=INFO
 
 # Set XFormers backend to avoid CUDA errors
 export VLLM_ATTENTION_BACKEND=XFORMERS
-export WANDB_API_KEY=f4eeb2f2bcbec56195df62e39b6fee6e8f39e108
 
 # Connect to head node (replace with your head node's address)
 ray start --address='xxxx'
